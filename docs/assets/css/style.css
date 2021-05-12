@@ -37,7 +37,7 @@ dt { color: #444; font-weight: 700; }
 
 th { color: #444; }
 
-img { max-width: 100%; }
+img { max-width: 100%; image-rendering: -moz-crisp-edges; image-rendering: -o-crisp-edges; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; \ -ms-interpolation-mode: nearest-neighbor; }
 
 header { width: 270px; float: left; position: fixed; -webkit-font-smoothing: subpixel-antialiased; }
 
